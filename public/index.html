@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>M storefront</title>
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
@@ -10,8 +11,14 @@
     <!-- ===============================================-->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
+    <!-- THEME -->
     <script src="assets/js/theme.js"></script>
+    <!-- SNIPCART -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css"
+    />
+    <!-- STYLESHEET -->
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
       rel="stylesheet"
@@ -35,5 +42,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script
+      async
+      src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"
+    ></script>
+    <div
+      hidden id="snipcart"
+      data-config-modal-style="side"
+      data-api-key="YWNiMzBmMzYtNjZhZC00YmI5LTllZDUtNTM1MjQ1N2ZhMWU5NjM2OTI2NzAxODkyMDIyMjcz"
+      hidden
+    ></div>
   </body>
 </html>

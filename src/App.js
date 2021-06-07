@@ -23,6 +23,7 @@ export default function App() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            ßß
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -222,6 +223,7 @@ export default function App() {
               <h5 className="fw-bold fs-3 fs-lg-5 lh-sm">Best Deals</h5>
             </div>
             <div className="col-12">
+              {/* CAROUSEL */}
               <div
                 className="carousel slide"
                 id="carouselBestDeals"
@@ -252,6 +254,17 @@ export default function App() {
                               </span>
                               <span className="text-primary">$175</span>
                             </div>
+                            <button
+                            className="snipcart-add-item"
+                            data-item-id="Flat-Hill-Slingback"
+                            data-item-price="79.99"
+                            data-item-url="/paintings/starry-night"
+                            data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                            data-item-image="assets/img/gallery/flat-hill.png"
+                            data-item-name="Flat Hill Slingback"
+                          >
+                            Add to cart
+                          </button>
                           </div>
                           <a className="stretched-link" href="#"></a>
                         </div>
@@ -274,6 +287,17 @@ export default function App() {
                               </span>
                               <span className="text-primary">$175</span>
                             </div>
+                            <button
+                            className="snipcart-add-item"
+                            data-item-id="Flat-Hill-Slingback"
+                            data-item-price="79.99"
+                            data-item-url="/paintings/starry-night"
+                            data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+                            data-item-image="assets/img/gallery/flat-hill.png"
+                            data-item-name="Flat Hill Slingback"
+                          >
+                            Add to cart
+                          </button>
                           </div>
                           <a className="stretched-link" href="#"></a>
                         </div>
